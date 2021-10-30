@@ -1,3 +1,17 @@
+= リファレンス
+
+この章では、Candid がサポートしている型についての詳細なリファレンス情報と、Candid の仕様や Candid Rust クレートのドキュメントへのリンクを提供します。
+
+* link:candid-types{outfilesuffix}[サポートされている型]
+* link:https://github.com/dfinity/candid[Candid の仕様]
+* link:https://docs.rs/candid[Candid Rust クレート]
+
+Candid を使い始める前に、より詳しい情報を知りたい場合には、以下の関連資料をご覧ください：
+
+* link:https://www.youtube.com/watch?v=O2KaWRtsqHg[How Candid provides a common language for application interfaces (video)]
+
+
+////
 = Reference
 
 This section provides detailed reference information about Candid supported types and links to the Candid specification and documentation for the Candid Rust crate.
@@ -10,3 +24,5 @@ If you are looking for more information before you start working with Candid, ch
 
 * link:https://www.youtube.com/watch?v=O2KaWRtsqHg[How Candid provides a common language for application interfaces (video)]
 
+
+////
