@@ -1,5 +1,20 @@
 = Candid
 
+開発者のための Candid のドキュメントへようこそ。
+
+この _Candid Guide_ では、Candid とは何か、また {IC} 上で動作する Dapps を開発する際にどのように使用できるかを説明しています。
+ここでの情報は、主に {IC} 上に Canister をデプロイしたいバックエンドおよびフロントエンドの開発者を対象としています。
+新しい言語のサポートを実装したり、既存の Candid の機能を拡張したりしたい場合は、背景情報や言語の内部構造に関する詳細が記載されている link:https://github.com/dfinity/candid/blob/master/spec/Candid.md[Candid の仕様]を参照してください。
+
+* link:candid-concepts{outfilesuffix}[Candid とは？]では、インターフェース記述言語 である Candid の目的や主な機能を紹介しています。
+Candid の動作に関する概要と、開発者のユースケースに Candid をどのように適用できるのかの、実用的な知識が得られる簡単な例が含まれています。
+
+* link:candid-howto{outfilesuffix}[Candid の使い方]では、代表的なタスクの実行方法を説明しています。
+* link:candid-ref{outfilesuffix}[リファレンス]では、Candid のツールやライブラリへのリンクや、Candid がサポートしている型についての詳細なリファレンス情報を提供しています。
+
+////
+= Candid
+
 Welcome to the Candid documentation for developers.
 
 This _Candid Guide_ explains what Candid is and how you can use it when developing dapps to run on the {IC}.
@@ -11,3 +26,4 @@ link:https://github.com/dfinity/candid/blob/master/spec/Candid.md[Candid specifi
 It includes an overview of how Candid works and some simple examples to give you a working knowledge of how you can apply Candid to your use case.
 * The link:candid-howto{outfilesuffix}[How to] section explains how to perform typical tasks.
 * The link:candid-ref{outfilesuffix}[Reference] section provides links to Candid tools and libraries and detailed reference information about Candid supported types.
+////
