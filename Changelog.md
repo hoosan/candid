@@ -1,6 +1,24 @@
 
 # Changelog
 
+## 2022-01-06 (Rust 0.7.10)
+
+* Bump ic-types to 0.3
+* `candid::utils::service_compatible` to check for upgrade compatibility of two service types
+
+## 2021-12-20 
+
+### Rust (0.7.9)
+
+* Generate Rust binding from Candid file (experimental)
+* Ignore init args for subtype checking
+* Pretty print text value with escape_debug
+* More visitors for Nat and Int type
+
+### Candid UI
+
+* Flamegraph when profiling feature is enabled
+
 ## 2021-09-30 (Rust 0.7.8)
 
 * Fix `subtype` function to take only one env. To check subtyping from two did files, use `env.merge_type(env2, ty2)` to merge the env and rename variable names.
