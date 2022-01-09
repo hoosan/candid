@@ -86,7 +86,7 @@ dfx start --background
 全体の URL は以下のようになります。ただし、`+CANDID-UI-CANISTER-IDENTIFIER+` を、`+dfx canister id+` コマンドで返された Canister ID に置き換えてください：
 +
 ....
-http://127.0.0.1:8000/candid?canisterId=<CANDID-UI-CANISTER-IDENTIFIER>
+http://127.0.0.1:8000/?canisterId=<CANDID-UI-CANISTER-IDENTIFIER>
 ....
 +
 ブラウザには、Canister ID や Candid のファイル（`+.did+`）を選択するためのフォームが表示されます。

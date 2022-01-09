@@ -126,7 +126,7 @@ Text 型に関して詳しく知りたい場合は、<<type-text,Text 型>>を�
 
 対応する JavaScript の値::
 
-`bignumber.js` npm パッケージに含まれる `+new BigNumber("10000")+`
+`+BigInt(10000)+` または `10000n`
 
 [#type-int]
 == int 型
@@ -168,7 +168,7 @@ Text 型に関して詳しく知りたい場合は、<<type-text,Text 型>>を�
 
 対応する JavaScript の値::
 
-`bignumber.js` npm パッケージに含まれる `+new BigNumber("-10000")+`
+`+BigInt(-10000)+` または `-10000n`
 
 [#type-natN]
 [#type-intN]
@@ -222,7 +222,7 @@ Text 型に関して詳しく知りたい場合は、<<type-text,Text 型>>を�
 
 8-bit, 16-bit, 32-bit は number 型に翻訳されます。
 +
-`int64` と `nat64` は `bignumber.js` の `BigNumber` オブジェクトに翻訳されます。
+`int64` と `nat64` は JavaScript の `BigInt` プリミティブに翻訳されます。
 
 [#type-floatN]
 == float32 型と float64 型
